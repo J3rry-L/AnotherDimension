@@ -6,16 +6,16 @@ public class Tester{
                   { -5, -2,  2, -9 }
                };
     int[] B = { 1, 3, 5 };
-    int[][] C = { {  1,  2, 3, 4 },
-                { 2, 3,  4,  1 },
-                { 3, 4,  1, 2 } };
-    int[][] D = { {  1,  1, 1 },
+    int[][] C = { { 1, 2, 3, 4 },
+                { 2, 3, 4,  1 },
+                { 3, 4, 1, 2 } };
+    int[][] D = { { 1, 1, 1 },
                 { 2, 2, 2 },
                 { 3, 3, 3 } };
-    int[][] E = { { 2,  4, 2 },
+    int[][] E = { { 2, 4, 2 },
                   { 2, 2, 2 } };
-    int[] arr1 = {1,4,5,-19,60};
-    int[] arr2 = {1000,20,11,19};
+    int[] arr1 = {1, 4, 5, -19, 60};
+    int[] arr2 = {1000, 20, 11, 19};
     int[] arr3 = {-85};
     int[] empty = {};
     int[][] matrix1 = {arr1, arr2, arr3};
@@ -44,5 +44,30 @@ public class Tester{
     System.out.println(ArrayOps.isLocationMagic(E, 0, 1));
     System.out.println(ArrayOps.isLocationMagic(E, 1, 1));
   }
-
+/*
+Should return:
+9
+0
+51
+1050
+-85
+60
+1000
+-85
+[12, 8, -14]
+[51, 1050, -85]
+[51, 1050, -85, 0]
+[12, 7, 2]
+[60, 1000, -85]
+6
+1016
+1016
+[3, -4, 16, -9]
+true
+false
+false
+true
+false
+true
+*/
 }
