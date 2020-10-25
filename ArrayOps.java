@@ -74,3 +74,5 @@ public class ArrayOps{
     return(sumRows(matrix)[row] == sumCols(matrix)[col]);
   }
 }
+
+//Method names have been double checked with those posted on GClass.
