@@ -37,6 +37,8 @@ public class Tester{
     System.out.println(Arrays.toString(ArrayOps.sumCols(A)));
     System.out.println(ArrayOps.isRowMagic(C));
     System.out.println(ArrayOps.isRowMagic(D));
+    System.out.println(ArrayOps.isColMagic(C));
+    System.out.println(ArrayOps.isColMagic(D));
   }
 
 }
